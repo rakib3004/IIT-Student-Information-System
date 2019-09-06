@@ -1,17 +1,11 @@
-
-
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
 int menu();
-
 int i;
 int n=10;
-
    struct number
     {
-
-
         char name[21];
         char address[80];
         int roll;
@@ -38,8 +32,6 @@ int intern_marks();
 double cgpa_calculation();
 double grand_cgpa_calculation();
 
-
-
 char subject_code[8][6][14];
 double cgpa;
 double sub_cgpa[6];
@@ -51,18 +43,13 @@ int search();
  int search3();
  int sm_no;
  int sp;
-
  int rt=0;
-
-
 
 int main()
 
 {
-
-
     menu();
-
+    
     return 0;
 }
 int menu()
@@ -105,17 +92,9 @@ int menu()
    printf("\t\t\t\tEnter Your Choice>>>>>>>");
     scanf("%d",&c) ;
    getchar();
-
-
-
-
-
     if(c==1)
     {
-
         profile();
-
-
     }
 
     else if(c==2)
@@ -124,9 +103,7 @@ int menu()
 
     }
     else if(c==3)
-
     {
-
         marks_processing();
     }
     else if(c==4)
@@ -280,9 +257,6 @@ int profile()
 
     for(i=0; i<n; i++)
     {
-
-
-
             printf("\nName>>>>>");
           scanf("%s",iitian[i].name);
 
@@ -846,7 +820,6 @@ for(i=0;i<n;i++)
 
 }
 
-
 return 0;
 
 }
@@ -870,11 +843,7 @@ for(i=0;i<n;i++)
      }
 
 }
-
-
 return 0;
 
 
 }
-
-
