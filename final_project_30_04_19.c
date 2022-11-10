@@ -49,7 +49,7 @@ int main()
 
 {
     menu();
-    
+
     return 0;
 }
 int menu()
@@ -448,6 +448,7 @@ FILE *quality;
 
 }
 
+}
 
    int semester01()
    {
@@ -815,7 +816,7 @@ for(i=0;i<n;i++)
         printf("Roll:%s\n",iitian[i].name);
         printf("Address:%s\n",iitian[i].address);
         printf("Roll_No:%d\n",iitian[i].roll);
-     printf("Registration_No:%s",iitian[i].du);
+        printf("Registration_No:%s",iitian[i].du);
      }
 
 }
@@ -839,7 +840,7 @@ for(i=0;i<n;i++)
         printf("Name:%s\n",iitian[i].name);
         printf("Address:%s\n",iitian[i].address);
         printf("Roll_No:%d\n",iitian[i].roll);
-     printf("Registration_No:%s",iitian[i].du);
+        printf("Registration_No:%s",iitian[i].du);
      }
 
 }
